@@ -1,4 +1,9 @@
-
+'''
+Develop a program that
+allows you to read a number
+positive integer and determine
+if it is even
+'''
 
 n=int(input("input a number: "))
 r=n%2
