@@ -14,11 +14,10 @@ def CDT (usuario, capital, tiempo):
     if tiempo > 2 :
         valor_inte=(capital*0.03*tiempo)/12
         valor_total=valor_inte+capital
-        return print("Para el usuario " + str(usuario) + " La cantidad de dinero a recibir, según el monto inicial " + str(capital) + " para un tiempo de " + str(tiempo) + " meses es: " + str(valor_total))
     else:
         valor_per=int(capital)*0.02
         valor_total=int(capital)-valor_per
-        return print("Para el usuario " + str(usuario) + " La cantidad de dinero a recibir, según el monto inicial " + str(capital) + " para un tiempo de " + str(tiempo) + " meses es: " + str(valor_total))
+    return print("Para el usuario " + str(usuario) + " La cantidad de dinero a recibir, según el monto inicial " + str(capital) + " para un tiempo de " + str(tiempo) + " meses es: " + str(valor_total))
         
 CDT("AB1012", 1000000, 3)
 CDT("ER3366", 650000, 2)
