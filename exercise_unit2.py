@@ -5,7 +5,7 @@ Consider that
 '''
 
 '''
-simple solution
+#simple solution
 n=int(input("input your weight in pounds: "))
 total=n*0.453592    
 print("your weight in kilograms is: " + str(round(total,2)))
@@ -14,7 +14,7 @@ print("your weight in kilograms is: " + str(round(total,2)))
 
 
 '''
-solution with functions
+#solution with functions
 def weight(pound):
     total=pound*0.453592
     print("su peso es de: " + str(round(total,2))+ " Kg")
@@ -23,7 +23,7 @@ weight(15)
 
 '''
 '''
-call a function in other function
+#call a function in other function
 def hi():
     print("input your weight in pounds: ")
     
@@ -38,7 +38,7 @@ weight()
 '''
 
 '''
-nested functions
+#nested functions
 def hi():
     pound=input("input your weight in pounds: ")
     def weight():
