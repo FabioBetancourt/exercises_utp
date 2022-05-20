@@ -1,4 +1,4 @@
-# Conversos de moneda de pesos colombianos a dolares
+# Conversos de moneda de pesos colombianos, argentinos o mexicanos a dolares
 
 def conversor(pesos,valor_dolar):
     pesos = float(input("Cuantos pesos " +pesos+ " a convertir: "))
