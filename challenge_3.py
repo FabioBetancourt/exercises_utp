@@ -11,8 +11,7 @@ def consultaRegistro(ventas, idproducto):
     partlog=''
     if idproducto in ventas.keys():
         for values in ventas[idproducto]:
-            partlog='Producto consultado : '+str(idproducto)+'  Descripción  '+str(values[0])+'  #Parte  '+str(values[1])+'  Cantidad vendida  '+str(values[2])+'  Stock  '+str(values[3])+'  Comprador '+str(values[4])+'  Documento  '+str(values[5])+'  Fecha Venta  '+str(values[6])
-            partlog=partlog[::]
+            partlog +='Producto consultado : '+str(idproducto)+'  Descripción  '+str(values[0])+'  #Parte  '+str(values[1])+'  Cantidad vendida  '+str(values[2])+'  Stock  '+str(values[3])+'  Comprador '+str(values[4])+'  Documento  '+str(values[5])+'  Fecha Venta  '+str(values[6])
             print(partlog)
     else:
         print ("No hay registro de venta de ese producto")
